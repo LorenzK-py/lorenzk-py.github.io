@@ -1,11 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Figtree');
+html {
+    height: -webkit-fill-available;
+}
 body {
+
     background-color: rgb(35, 35, 35);
     color: white;
     font-family: Figtree;
     width: 55vw;
     overflow: hidden;
     margin: 0 auto;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex: 1;
+    height: -webkit-fill-available;
 }
 .name {
     display: flex;
